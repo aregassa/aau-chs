@@ -8,5 +8,4 @@ import androidx.room.PrimaryKey
 class Department (
     @PrimaryKey @ColumnInfo(name = "Department") var departmentName: String,
     @ColumnInfo(name = "School") var schoolOfDepartment: Department,
-    @ColumnInfo(name = "Description") var departmentInfo: String?){
-}
+    @ColumnInfo(name = "Description") var departmentInfo: String?)

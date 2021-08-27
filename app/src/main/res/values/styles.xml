@@ -14,4 +14,12 @@
         <item name="android:fontFamily">@font/alegreya_sc_bold</item>
         <item name="android:textColor">#EEEEEE</item>
     </style>
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black_900</item>
+        <item name="android:alpha">0.2</item>
+        <item name="android:layout_marginHorizontal">@dimen/divider_margin</item>
+    </style>
 </resources>

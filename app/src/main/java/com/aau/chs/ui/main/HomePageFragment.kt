@@ -37,7 +37,6 @@ class HomePageFragment : Fragment() {
     }
 
     private fun initRecyclerView() {
-
         schools_recycler_view.apply {
             layoutManager = LinearLayoutManager(activity)
             val topSpacingItemDecoration = TopSpacingItemDecoration(30)
@@ -45,7 +44,6 @@ class HomePageFragment : Fragment() {
             schoolAdapter = SchoolsRecyclerAdapter()
             adapter = schoolAdapter
         }
-
     }
 
     private fun addDataSet() {

@@ -7,5 +7,4 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "school")
 class School (
     @PrimaryKey @ColumnInfo(name = "School") var schoolName: String,
-    @ColumnInfo(name = "Description") var description: String){
-}
+    @ColumnInfo(name = "Description") var description: String)

@@ -45,8 +45,9 @@ class SchoolsRecyclerAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         }
 
         override fun onClick(v: View?) {
-
+            
         }
+
         fun bind (school: String) {
             schoolName.text = school
         }
